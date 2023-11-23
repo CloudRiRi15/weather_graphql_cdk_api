@@ -1,0 +1,4 @@
+type Weather @model @auth(rules: [{ allow: public }]) {
+  weather: String
+  town: String
+}
